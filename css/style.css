@@ -1,0 +1,46 @@
+body {
+	background: #FBF2EF;
+	font-family: "Josefin Sans", sans-serif;
+	color: hsl(0, 36%, 70%);
+}
+
+h1 {
+	color: black;
+	letter-spacing: 7px;
+}
+
+h1 span {
+	color: hsl(0, 36%, 70%);
+	font-family: "Josefin Sans";
+}
+
+main p {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+form input {
+	border-radius: 50px;
+	border: 0.5px solid hsl(0, 36%, 70%);
+	color: hsl(0, 36%, 70%);
+	opacity: 0.4;
+	padding: 10px;
+}
+
+button{
+	background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	width: 60px;
+	padding: 10px;
+	border-radius: 50px;
+	border: 0px;
+	position: relative;
+}
+
+button:hover {
+	opacity: 0.5;
+}

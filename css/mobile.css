@@ -1,0 +1,23 @@
+@media (min-width: 360px) and (max-width: 767px){
+	body {
+		font-size: 0.9em;
+	}
+
+	header img#logo {
+		width: 90px;
+		margin: 30px;
+	}
+
+	header img#prin {
+		width: 100%;
+	}
+
+	header h1 {
+		text-align: center;
+		padding: 20px;
+	}
+
+	main {
+		text-align: center;
+	}
+}
