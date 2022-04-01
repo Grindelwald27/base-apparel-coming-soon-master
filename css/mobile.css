@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width: 767px){
+@media (min-width: 360px) and (max-width: 575px){
 	body {
 		font-size: 0.9em;
 	}
@@ -14,10 +14,39 @@
 
 	header h1 {
 		text-align: center;
-		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		font-size: 2.5em;
+		margin: 30px;
 	}
 
 	main {
 		text-align: center;
+	}
+
+	main p {
+		font-size: 0.9em;
+		margin:40px;
+		opacity: 0.6;
+	}
+
+	form {
+		margin-bottom: 50px;
+	}
+
+	div.form-group input {
+		width: 350px;
+		margin-left: 15%;
+	}
+
+	div.valid-feedback, div.invalid-feedback {
+		text-align: left;
+		margin-left: 15%;
+		position: absolute;
+	}
+
+	form button {
+		position: relative;
+		right: 7px;
 	}
 }
