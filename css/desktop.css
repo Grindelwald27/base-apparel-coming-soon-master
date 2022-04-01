@@ -1,0 +1,48 @@
+@media (min-width: 576px) and (max-width: 1440px){
+
+    body {
+       overflow: hidden;
+       padding-left: 100px;
+    }
+
+    header {
+        margin-top: 70px;
+    }
+
+    img#prin {
+        float: right;
+        position: relative;
+        bottom: 70px;
+    }
+
+    img#logo {
+        margin-bottom: 50px;
+    }
+
+    header h1 {
+        font-size: 4em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main p {
+        font-size: 0.8em;
+        width: 400px;
+        opacity: 0.6;
+        margin-bottom: 40px;
+    }
+
+    form div.form-group input {
+        width: 400px;
+    }
+
+    div.valid-feedback, div.invalid-feedback {
+        position: absolute;
+    }
+
+    form button {
+        position: relative;
+        right: 60px;
+    }
+
+}
